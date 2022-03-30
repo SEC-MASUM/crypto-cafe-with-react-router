@@ -24,7 +24,7 @@ const CoinDetails = () => {
       {loading ? (
         <Spinner />
       ) : (
-        <div className="h-[90vh] px-4 pt-20 pb-24 mx-auto max-w-7xl md:px-2">
+        <div className="px-4 pt-20 pb-24 mx-auto max-w-7xl md:px-2">
           <div className="h-full grid grid-cols-1 md:grid-cols-2 justify-items-center gap-4 md:justify-items-around content-center">
             <div className="order-2 md:order-1">
               <div>
