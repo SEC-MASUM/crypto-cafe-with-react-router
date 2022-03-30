@@ -1,11 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import Homepage from "./components/Homepage/Homepage";
 const App = () => {
   return (
     <div>
-      <h1>Crypto Cafe Starter Template</h1>
+      <Homepage></Homepage>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
